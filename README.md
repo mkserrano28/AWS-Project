@@ -3,7 +3,6 @@
 Continuous Integration and Continuous Deployment (CI/CD) is essential for automating the deployment process of web applications. In this guide, we'll walk through setting up a CI/CD pipeline using AWS services to deploy a React (Vite + Tailwind CSS) application.
 
 ![CI/CD ](CI_CD-Diagram.png)
-
 ## Prerequisites
 
 Before starting, ensure you have:
