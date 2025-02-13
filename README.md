@@ -109,8 +109,28 @@ artifacts:
   
 7.Click "Next" and enter a Role Name, e.g., CodePipelineServiceRole.
 8.Click "Create role".
-sasdf
 
+
+# Step 5: Create Code Pipeline
+
+1. Go to IAM Console: Search Code Pipeline
+2. Create Option -- Build Custom Pipeline - next
+3. Pipeline name -- name of your pipeline project
+4. Service role -- Existing role- choose your IAM- role your create in the step 4
+   enter the Role in Role ARN
+5.Source -- Amazon S3 follow this steps:
+   Github(via Github App)
+   Connect your github
+   choose your repository
+   branch - your branch name in your repository
+6. Build Option
+   Choose -- other build providers
+   AWS CodeBuild
+   choose your code build project
+7. Deployment Option
+    I choose S3
+8. Review your pipeline
+9. Create pipeline
 
 
    
