@@ -96,6 +96,10 @@ artifacts:
     }
   ]
 }
+
+
+
+
 6. Click "Next" to Attach Policies:
   Attach the following AWS-managed policies:
   AWSCodePipelineFullAccess
