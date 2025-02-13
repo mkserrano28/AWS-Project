@@ -79,12 +79,12 @@ artifacts:
 
 # Step 4: Create IAM-Roles
 
-1.Go to IAM Console: Open the AWS IAM Console.
-2.Click "Roles" in the left sidebar.
-3.Click "Create role".
-4.Choose Trusted Entity:
+-1.Go to IAM Console: Open the AWS IAM Console.
+-2.Click "Roles" in the left sidebar.
+-3.Click "Create role".
+-4.Choose Trusted Entity:
   Select Custom trust policy (instead of AWS service).
-5.Add the Trust Policy:
+-5.Add the Trust Policy:
 
 {
   "Version": "2012-10-17",
@@ -97,15 +97,15 @@ artifacts:
   ]
 }
 
-6. Click "Next" to Attach Policies:
+-6. Click "Next" to Attach Policies:
   Attach the following AWS-managed policies:
   AWSCodePipelineFullAccess
   AWSCodeBuildAdminAccess (if using CodeBuild)
   AmazonS3FullAccess (if using S3)
   AWSCodeDeployFullAccess (if using CodeDeploy)
   
-7.Click "Next" and enter a Role Name, e.g., CodePipelineServiceRole.
-8.Click "Create role".
+-7.Click "Next" and enter a Role Name, e.g., CodePipelineServiceRole.
+-8.Click "Create role".
 
 
 # Step 5: Create Code Pipeline
