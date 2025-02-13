@@ -131,6 +131,9 @@ artifacts:
     I choose S3
 8. Review your pipeline
 9. Create pipeline
+After you create your pipeline it will automatically push your update to your react app
+
+# congratulations you created your CI/CD pipeline :)))
 
 
    
