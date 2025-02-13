@@ -84,8 +84,8 @@ artifacts:
 3.Click "Create role".
 4.Choose Trusted Entity:
   Select Custom trust policy (instead of AWS service).
-
 5.Add the Trust Policy:
+
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -96,9 +96,6 @@ artifacts:
     }
   ]
 }
-
-
-
 
 6. Click "Next" to Attach Policies:
   Attach the following AWS-managed policies:
